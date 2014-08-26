@@ -1,0 +1,34 @@
+/* CSS Document */
+.foolt
+.foolt_phone{  float:right; padding-top:30px; padding-right:20px; padding-left:20px; border-left:1px solid #dfdfdf; padding-bottom:10px; height:90px;}
+.pichlep{ display:inline-block; float:left; margin-left:15px; margin-top:5px;}
+
+#help {
+    font-family: "宋体"; margin:0 auto;
+    width:646px; text-align: left; float:left; margin-left:20px;
+}
+#help UL {
+    float: left;margin:12px 0px 0px 0px;width: 145px;
+}
+#help H3 {
+    color: #000;
+    font-size: 13px;
+    height: 23px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-left:13px;
+}
+#help LI {
+    color: #7D7D7D; width:100%;
+    line-height: 25px; text-align:left;
+    list-style: none outside none; margin-left:15px;
+}
+#footer{ width:100%; display:inline-block}
+.footer_cn{ border-top:1px solid #dfdfdf; width:100%; line-height:2em;}
+
+/*QQ客服*/
+.WPA3-CONFIRM div{ text-align:left;display:block!important;}
+.qq_zx{ position: fixed; right:0px; bottom:0px;}
+.foolt_phone img{height: 65px;width: 260px;}

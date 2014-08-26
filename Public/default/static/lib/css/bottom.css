@@ -1,0 +1,51 @@
+/* CSS Document */
+.bottom1{ background:url(image/bottom/bottom1.gif) no-repeat; display:inline-block; width:73px; height:31px; line-height:31px; font-weight:bold; margin-top:-2px; position:absolute; left:363px; text-align:center;}
+.recharge_bottom{ background:url(image/bottom/bottom2.jpg) no-repeat; width:54px; height:24px; text-align:center; border:0px; color:#FFFFFF; line-height:24px;}
+.recharge_bottom:hover{ background:url(image/bottom/bottom2hover.jpg) no-repeat; width:54px; height:24px; text-align:center; border:0px; color:#FFFFFF;}
+/*联动导航*/
+.listnva_ioc1{ background:url(image/ico/ico2.gif) no-repeat; display:block; width:9px; height:9px; margin-left:25px; float:left; margin-top:10px; margin-right:10px;}
+.listnva_ioc2{ background:url(image/ico/ico2.gif) no-repeat bottom; display:block; width:9px; height:9px; margin-left:25px; float:left; margin-top:10px; margin-right:10px;}
+
+/*商品列表页*/
+.ico2{ background:url(image/ico/ico2.jpg) no-repeat; width:9px; height:7px; display:inline-table; float:left; margin-top:-6px; margin-left:40px; z-index:300; position:absolute; left:0px;}
+.bottom2{ background:url(image/bottom/bottom1.jpg) no-repeat; width:85px; height:32px; text-align:center; color:#FFFFFF; border:0px; font-size:14px; padding:0px; line-height:32px; cursor:pointer;}
+.bottom2:hover{ background:url(image/bottom/bottom1hover.jpg) no-repeat; width:85px; height:32px; text-align:center; color:#FFFFFF; border:0px; font-size:14px;padding:0px;}
+.bottom3{ background:url(image/bottom/bottom3.jpg) no-repeat; width:122px; height:32px; text-align:center; color:#FFFFFF; border:0px; font-size:14px;padding:0px;line-height:32px;}
+.bottom3:hover{ background:url(image/bottom/bottom3hover.jpg) no-repeat; width:122px; height:32px; text-align:center; color:#FFFFFF; border:0px; font-size:14px;padding:0px;}
+
+.buttongray{background: url("image/bottom/buttongray.jpg") no-repeat scroll 0 0 transparent;width:85px; height:32px; text-align:center; color:#FFFFFF; border:0px; font-size:14px; padding:0px;line-height:32px;}
+.buttongray2{background: url("image/bottom/buttongray2.jpg") no-repeat scroll 0 0 transparent; width:122px; height:32px; text-align:center; color:#fff; border:0px; font-size:14px;padding:0px;line-height:32px;}
+.buttongray:hover{background: url("image/bottom/buttongray.jpg") no-repeat scroll 0 0 transparent; }
+.buttongray2:hover{background: url("image/bottom/buttongray2.jpg") no-repeat scroll 0 0 transparent;}
+
+/*账户中心*/
+.user_kj .user_kj_bottom{background:url(image/bottom/user_kj.jpg) no-repeat; width:43px; line-height:20px;height:20px; text-align:center; border:0px; color:#FFFFFF;  padding:0px; vertical-align:middle; margin:0px 5px; font-size:12px;}
+.user_kj .user_kj_bottom:hover{background:url(image/bottom/user_kjhover.jpg) no-repeat; }
+.user_kj .user_kj_bottom2{background:url(image/bottom/user_kj2.jpg) no-repeat; width:73px; height:21px; text-align:center; border:0px; color:#000; line-height:21px;  padding:0px;vertical-align:middle; font-size:12px;}
+.user_kj .user_kj_bottom2:hover{background:url(image/bottom/user_kj2hover.jpg) no-repeat;}
+.generate_bottom{ background:url(image/bottom/bottom23.jpg) no-repeat; width:64px; height:24px; text-align:center; border:0px; color:#FFFFFF!important; line-height:24px; display:inline-block;}
+.generate_bottom:hover{ background:url(image/bottom/bottom23hover.jpg) no-repeat; width:64px; height:24px; text-align:center; border:0px; color:#FFFFFF;}
+
+/*收货地址*/
+.short-btn{ background:url(image/bottom/bottom23.jpg) no-repeat; width:64px; height:24px; text-align:center; border:0px; color:#FFFFFF; line-height:24px;}
+.short-btn:hover{ background:url(image/bottom/bottom23hover.jpg) no-repeat; width:64px; height:24px; text-align:center; border:0px; color:#FFFFFF;}
+/*
+提示框*/
+.bottom-h{ background:url(image/bottom/bottom-h.jpg) no-repeat; width:85px !important; height:32px; line-height:30px; display:inline-block; float:left;}
+.bottom-h:hover{ background:url(image/bottom/bottom-hhover.jpg) no-repeat!important;}
+
+/*返回按钮*/
+.bottom_return{ background:url(image/bottom/bottom_return.jpg) no-repeat; width:64px !important; height:24px; line-height:24px; display:inline-block; text-align:center; margin:0px; border:0px;}
+.bottom_return:hover{ background:url(image/bottom/bottom_returnhover.jpg) no-repeat!important;}
+
+.add_address{ background:url(image/bottom/add_address.jpg) no-repeat; width:168px; height:39px; color:#FFFFFF !important; line-height:41px; text-align:center; display:block; font-size:14px; font-weight:bold;}
+.add_address a,.add_address a:link,.add_address a:hover{color:#FFFFFF;}
+.add_address:hover{ background:url(image/bottom/add_addresshover.jpg) no-repeat; width:168px; color:#FFFFFF;}
+.add_address1{ background:url(image/bottom/add_address.png) no-repeat  0px -43px; width:168px; height:39px; color:#FFFFFF !important; line-height:41px; text-align:center; display:block; font-size:14px; font-weight:bold;}
+.add_address1 a,.add_address1 a:link,.add_address a:hover{color:#FFFFFF;}
+.add_address1:hover{ background:url(image/bottom/add_address.png) no-repeat 0px 0px; width:168px; color:#FFFFFF;}
+input[type="button"],a, input[type="submit"]{ cursor:pointer;}
+/*查询*/
+.siteButton,.page_qure{ background:url(image/bottom/inquiry.jpg) no-repeat; width:48px; height:22px; border:0px;cursor:pointer;}
+.inquiry{background:#bee6fd; padding:1px 4px; border:1px solid #97d1f2;cursor:pointer;width:auto;overflow:visible;}
+.width_auto{width:auto;overflow:visible; padding:0px 3px; *padding-top:3px;_padding-top:3px;}

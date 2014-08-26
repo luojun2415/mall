@@ -1,0 +1,14 @@
+/* CSS Document */
+body{ font-size:12px;color:#000; text-align:center;}
+body{padding:0px;border:0px;font-family:"ËÎÌו";margin:0px; width:100%;}
+img{ border:0px;}
+ul,li,p,div,body,h3,dl,dt,dd{ margin:0px; padding:0px; list-style:none;/* line-height:2em;*/}
+
+a:hover{color:#d7161e;}
+h2{ margin:0px; font-size:14px; line-height:35px;}
+h3{ font-size:12px;}
+.clearfix{zoom:1;}
+.clearfix:after{ content:"."; clear:both; display:block; height:0; visibility:hidden;}
+.w {    background: none repeat scroll 0 0 #FFFFFF;}
+
+

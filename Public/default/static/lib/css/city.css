@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*城市选择*/
+.city_list {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #E8E8E8;
+    margin:10px 10px;   padding:8px; width:90%;}
+
+.city_list li {margin-bottom: 10px;padding-left: 40px;position: relative;vertical-align: top;}
+.city_list ul li .hotcity {line-height: 18px; width:395px; }
+.city_list  a {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 5px 1px 0; width:58px;
+}
+.city_list a {
+    color: #000000;
+}#areaName{ text-align:left; font-family:"微软雅黑", "黑体", "宋体" !important;}
+.city_list li{ position:relative;}
+.city_list h4 { font-weight:normal;
+    color: #666666; width:40px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+.pop_city{ width:100%;}
+.logo_left{ width:154px; float:left; display:inline-block; } 
+#header_ms .logo3 .city{ width:110px; position:relative; z-index:999; text-align:left; margin-left:5px;}
+#header_ms .logo3 .city_dq{ margin-top:3px;font-size:22px; font-family: Arial, Helvetica, sans-serif; font-weight:bold; color:#ff7800;}
+#header_ms .logo3 .city_dq .orange{ color: #ff7800 !important;}
+#header_ms .logo3  a{ text-decoration:none!important;}
+#header_ms .logo3 .city_dq span{ color:#9fbd58; font-family:Verdana, Geneva, sans-serif;}
+.sitecont {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #dfdfdf;cursor: default;padding: 2px;position: absolute;
+ z-index: 1002; left:0px; text-align:left; width:488px; margin-top:22px;}
+.sitecont .mt {background: none repeat scroll 0 0 #fff;height: 27px; width:100%;line-height: 27px;position: relative; text-align:left}
+.sitecont .mt strong {padding-left: 8px;}
+.sitecont .mt b {color: #b80000;cursor: pointer;font-weight: normal;padding: 0 5px;}
+.sitecont .mt i, .siteconfirm .sss1 i {background: url(image/closejpg.jpg) no-repeat;cursor: pointer;height: 16px;right: 8px;
+    top: 5px;    width: 16px;    display: block;    font-size: 1px;    position: absolute;}
+.sitecont dd a.gre {color: #8CB91E;}
+#header_ms .logo3 .city{ float:left;}
+#header_ms .logo3 .city .namecity{ font-size:20px; font-family:"微软雅黑", "黑体", "宋体"; color:#f3a600;}
+#header_ms .logo3 .city .ctqh{ float:left;display:block; line-height:22px;height:25px;  width:69px; margin:2px 0px 0px 0px ;margin-left:5px;}
+#header_ms .logo3 .city .currhover{ background:url(image/citybg.jpg) repeat-x; height:25px; color:#FFFFFF;}
+#header_ms .logo3 .city .currhover s{ background:none;}
+#header_ms .logo3 .city .currhover a{ color:#fff;}
+.filter_bar {
+    border-bottom: 1px solid #D9D9D9;
+    height: 23px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.pop_city .radius_top, .pop_city .radius_bottom, .pop_city .close, .filter_bar .current {
+    background: url("image/pop_city.png") no-repeat scroll 0 0 transparent;
+}
+.filter_bar .current {
+    background-position: -441px -7px;
+    bottom: -1px;
+    color: #FF6600;
+    font-weight: bold;
+    position: relative;
+    width: 19px;
+}
+
+.filter_bar a {
+    float: left;
+    font-family: simsun;
+    font-size: 14px;
+    height: 23px;
+    line-height: 20px;
+    text-align: center; margin:0px;
+    text-transform: uppercase;
+    width: 16px;
+}

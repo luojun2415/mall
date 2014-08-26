@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document 共用*/
+
+/*搜素*/
+#search3{ float:left; width:458px; margin-top:10px; text-align:left;}
+.search_bg{width:445px; margin:0px;}
+.panlogo{ float:right; margin-top:3px;}
+.panlogo img{ width:157px; margin:0px 10px;}
+#search3 #hot UL LI{ color:#000; margin:0px; margin-right:10px;display:inline; }
+#search_text{border:0px; background:none; width:288px; height:23px;font-size:12px; float:left; padding:2px 5px; line-height:23px; color:#999999}
+#search_bottom{ background:url(http://dev.mall.com/res/static/default/lib/css/image/search_bottom.jpg) no-repeat; width:65px; height:31px; margin-top:-2px; padding:0px; float:left; list-style:none; border:0px;overflow:hidden; cursor:pointer; position:absolute; left:291px;}
+#search3 #hot { margin:15px 0 0;float: left;    text-align: left;    width: 360px;}
+#hot UL {LIST-STYLE-TYPE: none; MARGIN: 0px;}
+#hot UL LI {FLOAT: left; HEIGHT: 20px; MARGIN-LEFT: 10px; }
+#hot UL LI A {	TEXT-ALIGN: center; COLOR: #ffffff;}
+#Search_bg{ background:url(image/topbg2.jpg) repeat-x; display:table; width:100%;height:40px; clear:both; z-index:1;}
+/*搜素类别选项*/
+.ausele { background:#fff;cursor: pointer; font-size: 14px;width: 80px; position: absolute; left:-7px;text-align:left;border-right: 1px solid #CCCCCC; display:none;}
+.auseletit { color: #666666;padding:0px;margin-top:0px; line-height:25px; width:89%; padding-left:10px;}
+.auseletit .icon-tria {-moz-border-bottom-colors: none;    -moz-border-left-colors: none;    -moz-border-right-colors: none;    -moz-border-top-colors: none;    border-color: #CCCCCC transparent transparent;    border-image: none;    border-right: 4px dashed transparent;    border-style: solid dashed dashed;    border-width: 4px;    display: inline-block;    font-size: 0;    height: 0;    line-height: 0;    margin-left: 2px;    overflow: hidden;
+}
+.i-ausele {display: none;border: 1px solid #CCCCCC; width:100%; border-top:0px; border-right:0px;}
+.i-ausele div{ text-align:left;padding-left:11px;}
+.i-ausele a {color: #666666; display: block;height: 23px; font-size:14px;line-height: 23px;padding-left:0px;}
+.i-ausele a:hover {background-color: #F5F5F5;}
+.ld {position: relative;}
+.ausele .hover{border: 1px solid #CCCCCC; border-top:0px; background:#FFF;}
+
+
+

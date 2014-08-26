@@ -1,0 +1,35 @@
+/* CSS Document导航 */
+
+#navigation{ width:100%; text-align:center; clear:both; z-index:4}
+#nva_bar{ background:url(http://dev.mall.com/res/static/default/lib/css/image/navigationbg.jpg) repeat-x; height:32px; text-align:left; width:1000px; border:2px solid #e8e5e5; line-height:32px; margin:0 auto;}
+#nva_bar .coorper3nva{ float:left; width:723px;}
+#nva_bar .coorper3nva li{ width:92px;text-align:center; float:left; font-size:14px; font-family: "黑体", "宋体"; background:url(http://dev.mall.com/res/static/default/lib/css/image/navigation_line.jpg) no-repeat 92px 0px; text-align: center; padding-right:1px; z-index:5; list-style:none;}
+#nva_bar .coorper3nva li a{ text-decoration:none; color:#fff; width:100%; display:inline-block; text-align:center;font-size:14px; font-family: "黑体", "宋体"; font-weight:bold;}
+#nva_bar .coorper3nva li a:hover{ background: url(http://dev.mall.com/res/static/default/lib/css/image/hovernavbg.jpg) repeat-x;}
+#navigation .nvabottom_bg{ background:url(http://dev.mall.com/res/static/default/lib/css/image/nvabottombg.jpg) no-repeat center; height:10px; width:1000px; display:block; margin:0 auto;}
+#nva_bar .coorper3nva .movedcurr{background: url(http://dev.mall.com/res/static/default/lib/css/image/hovernavbg.jpg) repeat-x;}
+.nocuarr{ z-index:9}
+
+/*二级类别
+
+#nva_bar .coorper3nva li .nvatwo{ position:absolute; left:0px; top:32px; z-index:4; background:#0096a7; border:1px solid #dfdfdf; border-top:0px;  z-index:5; display:none}
+#nva_bar .coorper3nva li .nvatwo li{ background:none;  text-align:left;}
+#nva_bar .coorper3nva li .nvatwo li span{ float:right; color:#b5b5b5; display:none}
+#nva_bar .coorper3nva li .nvatwo a{font-weight:normal; text-align:left; padding-left:0px; border-bottom:0px solid #1ca0a8;width:auto; color:#fff; font-size:12px; font-family:"宋体"; float:left; padding:0px 10px;}
+#nva_bar .coorper3nva li .nvatwo a:hover{ color:#fff; background:#09c2c7;width:80%;}
+#nva_bar .coorper3nva li .nvatwo .orange{ background:#09c2c7; color:#FFFFFF!important;width:80%;}*/
+/*二级类别*/
+
+#nva_bar .coorper3nva li .nvatwo{ position:absolute; left:0px; top:32px; z-index:4; background:#0096a7; border:1px solid #dfdfdf; border-top:0px;  z-index:5; display:none}
+#nva_bar .coorper3nva li .nvatwo li{ background:none;  text-align:left;}
+#nva_bar .coorper3nva li .nvatwo li span{ float:right; color:#b5b5b5; display:none}
+#nva_bar .coorper3nva li .nvatwo a{font-weight:normal; text-align:left; padding-left:0px; border-bottom:0px solid #1ca0a8;width:auto; color:#fff; font-size:12px; font-family:"宋体"; float:left; padding:0px 10px;}
+#nva_bar .coorper3nva li .nvatwo a:hover{ color:#fff; background:#09c2c7;width:80%;}
+#nva_bar .coorper3nva li .nvatwo .orange{ background:#09c2c7; color:#FFFFFF!important;width:80%;}
+/*购物车*/
+
+#shopCart {WIDTH: 261px;BACKGROUND: url(http://dev.mall.com/res/static/default/lib/css/image/bg_nav1.jpg) no-repeat; FLOAT: right; HEIGHT: 32px;}
+#myCart {TEXT-ALIGN: left;PADDING-LEFT:75px; WIDTH:120px; PADDING-top:2px; FLOAT: left;}
+#cartCount {MARGIN: 0px 5px}
+#purchase {TEXT-ALIGN: center; WIDTH:50px; text-align:left; FLOAT: right;; PADDING-top:1px; }
+#purchase a:link {COLOR: #076f72}

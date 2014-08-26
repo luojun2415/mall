@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.navigation_cntext{ position:relative;}
+.navigation_cntext em,.shoplist_nva .listnav li em{color: #FE0000; font-size: 11px; font-style: normal; left: 39px; position: absolute; top: 9px;}
+.bg_lightblue .navigation_cntext em{ top:-11px; left:44px;}
+.shoplist_nva .listnav li{ position:relative;}
+.shoplist_nva .listnav li em{ top:-10px; left:92px; position:absolute;  }
+.ad3650830{ width:1100px; height:700px;background:url(http://dev.mall.com/res/static/default/lib/css/image/365ad.png) no-repeat;position:absolute; top:50%; left:50%; margin:-350px 0 0 -550px; z-index:1000000; text-align:right;}
+.ad3650830 img{ margin:5px 5px 0 0;}

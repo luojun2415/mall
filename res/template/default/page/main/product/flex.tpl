@@ -1,0 +1,1 @@
+{widget name="default:widget/plist/plist.tpl" data=$products}

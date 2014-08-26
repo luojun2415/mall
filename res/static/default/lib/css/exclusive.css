@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document 专属样式 */
+html{ background:#f4efef url(http://dev.mall.com/res/static/default/lib/css/image/htmlbg.jpg) no-repeat center top;}
+#header_ms{text-align:center; width:100%; }
+#header_ms .header_top{ width:1000px; margin:0 auto;height:34px; text-align:right; display:block;}
+#header_ms .header_nva{ background:url(http://dev.mall.com/res/static/default/lib/css/image/header_nva.gif) no-repeat right top;  width:715px;height:27px; float:right; clear:both;}
+#header_ms .header_nva .topleft{ float:left;  padding:0px 10px; line-height:25px; text-align:left; display:inline;}
+#header_ms .header_nva .topright{ float:right; line-height:25px;padding:0px 10px; text-align:right; font-family:Verdana, Geneva, sans-serif; display:inline; }
+#header_ms .header_logo{ width:998px; margin:0 auto;}
+#header_ms .logo3 {background: no-repeat scroll 0 0 transparent;float: left;height:80px; width:282px;}
+#header_ms .header_nva .topright a{ padding:0px 10px;  }
+/*搜素*/
+#header_ms #search3{ background: url(http://dev.mall.com/res/static/default/lib/css/image/seachbg.jpg) no-repeat left top;padding:2px;}
+
+/*新闻*/
+.homenews { width:731px; text-align:left;}
+.homenews  .news_nv{ margin-bottom:5px;}
+.homenews .news_ms{ background:#fff; width: 338.5px; padding:10px;height:210px;}
+.homenews .news_ms .homenews_borderbt{ /*background:url(image/homenew_xfline.jpg) repeat-x bottom;*/ height:8px; width:225px;}
+.homenews .news_ms .homenews_moer a{ background:url(http://dev.mall.com/res/static/default/lib/css/image/homenews_more.jpg) no-repeat; width:39px; height:15px;font-size:12px; line-height:15px; color:#fff; text-align:center; display: inline-block; margin-top:5px;}
+.homenews .news_ms .newsnva_two{ width:100%;}
+
+.homenews .news_ms .newsnva_two li{ width:47px; height:32px; line-height:28px; font-weight:bold; text-align:center; float:left;}
+.homenews .news_ms .newsnva_two  .curr{ background:url(http://dev.mall.com/res/static/default/lib/css/image/ms_bg.jpg) no-repeat 0px 3px; color:#FFF}
+.homenews .news_ms .newsnva_two  .curr_xf{ background:url(http://dev.mall.com/res/static/default/lib/css/image/new_xfbg.jpg) no-repeat 0px 3px; color:#FFF}
+
+.homenews .news_ms .newsnva_two .curr a,.homenews .news_ms .newsnva_two .curr_xf a{ color:#FFF}
+.homenews_cnlist{ border-top:0px solid #2593b8; clear:both; margin-top:-10px; width:100%; text-align:center;}
+.homenews_cnlist_xf{ border-top:0px solid #e84c1b; clear:both; margin-top:-10px; width:100%; text-align:center;}
+
+.homenews_cnlist ul,.homenews_cnlist_xf ul{ padding-top:18px;width:336px; margin:0 auto; text-align:left;}
+.homenews_cnlist li,.homenews_cnlist_xf li{  line-height:2.2em; width:100%; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.homenews_cnlist li span, .homenews_cnlist_xf li span{ font-family: "宋体", "黑体"; padding-right:5px;}
+/*类别小图标钓友*/
+.ico1 { background: url(http://dev.mall.com/res/static/default/lib/css/image/ico/1.png) no-repeat 0px 0px; padding-left:28px; float: left; display:inline-table; height:29px;}
+
+/*AGCOD*/
+.agcod_bg{ background:#14a3b1; width:100%; margin-top:2px;}
