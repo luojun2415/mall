@@ -1,5 +1,5 @@
 <?php
-namespace Mall\Controller;
+namespace Mall\Controller\Main;
 use Mall\Controller\AuthController;
 
 class UrlController extends AuthController {
@@ -11,6 +11,6 @@ class UrlController extends AuthController {
 		
 		$url = $productModel->getProductUrl($productInfo);
 		
-		$this->redirect($this->baseUrl . '/Product/Detail/productId/' . $productId);
+		$this->redirect($this->baseUrl . '/Main/Product/Detail/productId/' . $productId);
 	}
 }

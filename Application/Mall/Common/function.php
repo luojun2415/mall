@@ -12,7 +12,7 @@ if (!function_exists('getCgiData')) {
 			array_unshift($getParams, $url);
 			$url = call_user_func_array('sprintf', $getParams);
 		}
-		Log::record('hello');
+		Log::record($url, Log::INFO);
 		Log::save();
 		$instance = Client::getInstance();
 	

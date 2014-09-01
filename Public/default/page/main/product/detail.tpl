@@ -92,7 +92,7 @@
         <div id="limitHandler" class="box shopcn_tj por_relative">
 	        <div id="shoppingBlock" style="width:100%;display:none;">
         <div class="clar"> </div>
-         {if isset($userInfo->ExchangePower) && $userInfo->ExchangePower eq 1}
+       
           <ul>  
           {if isset($product->LimitStatus) && $product->LimitStatus}
             <li>本产品还剩：<span id="limitNumber" class="limitNum">0</span>张</li>
@@ -108,7 +108,7 @@
 			</li>
           </ul>
           <div class="bottom_cn r margin_r25">
-          {if !$Enabled}
+          {if $product->Enabled}
          	 该商品已经下架,请购买其它商品！
           {else}  
           	<input id="ToShopping" type="button"  value="立即购买" class="bottom2 margin_r10"/>
@@ -122,9 +122,6 @@
            <!--添加成功提示-->
           <div id="alertdiv"></div>
           <!--提示结束--> 
-          {else}
-          	 您没有购买商品的权限！ 
-          {/if}
         </div>
         
       </div>
@@ -150,7 +147,7 @@
     <input type="hidden" id="hidiscg" class="ishot" value='{$ishot}' />
 {widget name="default:widget/notice/notice.tpl"}
 
-    <script type="text/javascript">
+    {script}
     var priceRanage = 0;
     var tagName = '';
     var orderBy = 1;
@@ -398,8 +395,18 @@
 	$("#goodsNotice").click(function(){
 		$("#showGoodsNotice").css("display","block");
 	});
-    
-    </script>
+	
+ 	var liElement = $('#attributeValue li');
+	liElement.first().addClass("tb-selected");
+	liElement.first().append('<i>已选中</i>');
+	liElement.click(function(){
+		liElement.removeClass("tb-selected");
+		liElement.children("i").remove();
+		$(this).addClass("tb-selected");
+		$(this).append('<i>已选中</i>');
+		LoadSkuInfo();
+	});
+    {/script}
     <script type="text/javascript">
         //	$.get(baseUrl+'/AsynRequest/GetRankList',{},function(data){
     	//		$('#rankList').append(data);
@@ -407,18 +414,6 @@
 		
 		$.get(baseUrl+'/AsynRequest/GetRecentList',{},function(data){
 			$('#recentList').append(data);
-		});
-	</script>
-	<script type="text/javascript">
-		var liElement = $('#attributeValue li');
-		liElement.first().addClass("tb-selected");
-		liElement.first().append('<i>已选中</i>');
-		liElement.click(function(){
-			liElement.removeClass("tb-selected");
-			liElement.children("i").remove();
-			$(this).addClass("tb-selected");
-			$(this).append('<i>已选中</i>');
-			LoadSkuInfo();
 		});
 	</script>
 	<script type="text/javascript">

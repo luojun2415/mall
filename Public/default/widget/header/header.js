@@ -1,28 +1,31 @@
 var http = require('common:widget/http/http.js');
-
+var common = require('common');
       //加载城市信息
-		$(function(){
-			$('.ctqh').live('click',function(){
-				http.get('CommonFrame','getCitiesInfo' ,{},function(data){
-					$('#sitecont').html(data);
-					$('#sitecont').css("display","block");
+		$('.ctqh').live('click',function(){
+			http.get('Api/City/Choose' ,{},function(data){
+				$('#sitecont').html(data);
+				$('body').delegate('.hotcity a','click',function(){
+					var cityId = $(this).attr('data-id');
+					var cityName = $(this).html();
+					changeCity(cityId, cityName);
 				});
-				
+				$('#sitecont').css("display","block");
 			});
-			$('#closeButton').live('click',function(){
-				$('#sitecont').css("display","none");
-			});
-			$('.filter_bar a').click(function(){
-				var id = $(this).attr('id');
-				$('.filter_bar a').removeClass();
-				$(this).addClass('current');
-				$('.city_wrap p').css("display","none");
-				$('.city_wrap p[name='+id+']').css("display","block");
-			});
+			
+		});
+		$('#closeButton').live('click',function(){
+			$('#sitecont').css("display","none");
+		});
+		$('.filter_bar a').click(function(){
+			var id = $(this).attr('id');
+			$('.filter_bar a').removeClass();
+			$(this).addClass('current');
+			$('.city_wrap p').css("display","none");
+			$('.city_wrap p[name='+id+']').css("display","block");
 		});
 		
 		function changeCity(areaId,areaName){
-			setCookie('AreaID',areaId,'h6');
+			//setCookie('AreaID',areaId,'h6');
 			
 			$("#areaName").html(areaName);
 			$("#defCity").html(areaName);

@@ -1,5 +1,19 @@
 {
     "res": {
+        "default:page/api/city/choose.tpl": {
+            "uri": "/template/default/page/api/city/choose.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "default:page/api/product/flex.tpl": {
+            "uri": "/template/default/page/api/product/flex.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
         "default:page/layout.tpl": {
             "uri": "/template/default/page/layout.tpl",
             "type": "tpl",
@@ -23,13 +37,6 @@
         },
         "default:page/main/product/detail.tpl": {
             "uri": "/template/default/page/main/product/detail.tpl",
-            "type": "tpl",
-            "extras": {
-                "isPage": true
-            }
-        },
-        "default:page/main/product/flex.tpl": {
-            "uri": "/template/default/page/main/product/flex.tpl",
             "type": "tpl",
             "extras": {
                 "isPage": true
@@ -134,10 +141,6 @@
             "uri": "http://dev.mall.com/res/static/default/lib/js/common.js",
             "type": "js"
         },
-        "default:static/lib/js/minsheng.js": {
-            "uri": "http://dev.mall.com/res/static/default/lib/js/minsheng.js",
-            "type": "js"
-        },
         "default:widget/footer/footer.tpl": {
             "uri": "default/widget/footer/footer.tpl",
             "type": "tpl"
@@ -146,7 +149,8 @@
             "uri": "http://dev.mall.com/res/static/default/widget/header/header.js",
             "type": "js",
             "deps": [
-                "common:widget/http/http.js"
+                "common:widget/http/http.js",
+                "common"
             ]
         },
         "default:widget/header/header.tpl": {

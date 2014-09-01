@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2014-08-26 09:02:45
+<?php /* Smarty version Smarty-3.1.6, created on 2014-08-26 09:31:53
          compiled from "res/template\default\page\Main\Product\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1787953fbdcb5eb5db4-33983690%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5918d734e82e273778d35e57d70e29b9fee0b815' => 
     array (
       0 => 'res/template\\default\\page\\Main\\Product\\index.tpl',
-      1 => 1409014954,
+      1 => 1409016712,
       2 => 'file',
     ),
     '56f7c006da280c3722735cd7743677232d9852b9' => 
     array (
       0 => 'res/template\\default\\page\\layout.tpl',
-      1 => 1409013657,
+      1 => 1409015433,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_53fbdcb64659a',
   'variables' => 
   array (
     'description' => 0,
@@ -28,8 +30,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'baseUrl' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_53fbdcb64659a',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53fbdcb64659a')) {function content_53fbdcb64659a($_smarty_tpl) {?><!DOCTYPE html>
 <?php if(!class_exists('FISResource')){require_once('C:/Users/John/Downloads/thinkphp_3.2.2_full/Application/Common/Lib/Smarty/plugins/FISResource.class.php');}FISResource::setFramework(FISResource::getUri("common:static/mod.js", $_smarty_tpl->smarty)); ?><html>
@@ -338,17 +338,17 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['i']['last']       = ($_smart
 $(function($) {
 	//热销卡
 	$.get('<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
-/Product/Flex/id/1?r='+Math.random(),{},function(data){
+/Api/Product/Flex/id/1?r='+Math.random(),{},function(data){
 		$('#hotProducts').html(data);
 	});
 	//常规卡
 	$.get('<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
-/Product/Flex/id/0?r='+Math.random(),{},function(data){
+/Api/Product/Flex/id/0?r='+Math.random(),{},function(data){
 		$('#commonProducts').html(data);
 	});
 	//预定卡
 	$.get('<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
-/Product/Flex/id/2?r='+Math.random(),{},function(data){
+/Api/Product/Flex/id/2?r='+Math.random(),{},function(data){
 		$('#destineProducts').html(data);
 	});
 });

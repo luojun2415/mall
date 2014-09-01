@@ -1,19 +1,23 @@
 define('common:widget/http/http.js', function(require, exports, module){
 
-var baseUrl;
+/**
+ * 调用之前，需要使用widget初始化
+ */
+var _baseUrl;
 exports.init = function(baseUrl) {
-	this.baseUrl = baseUrl;
-}
-exports.get = function(ctl, action, data, fn, type) {
-	return $.get(getUrl(ctl, action), data, fn, type);
+	_baseUrl = baseUrl;
 }
 
-exports.post = function(ctl, action, data, fn, type) {
-	return $.post(getUrl(ctl, action), data, fn, type);
+exports.get = function(url, data, fn, type) {
+	return $.get(getUrl(url), data, fn, type);
 }
 
-getUrl = function(ctl, action) {
-	return this.baseUrl + '/' + ctl + '/' + action;
+exports.post = function(url, data, fn, type) {
+	return $.post(getUrl(url), data, fn, type);
+}
+
+getUrl = function(url) {
+	return _baseUrl + '/' + url;
 }
 
 });

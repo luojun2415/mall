@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2014-08-26 08:41:02
+<?php /* Smarty version Smarty-3.1.6, created on 2014-08-27 09:05:18
          compiled from "res/template\default\widget\header\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2188053fb235c3d06d8-92693503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '15035122434987bf3a82f4a427ae6cfbe36099c3' => 
     array (
       0 => 'res/template\\default\\widget\\header\\header.tpl',
-      1 => 1409013659,
+      1 => 1409101420,
       2 => 'file',
     ),
   ),
@@ -37,7 +37,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53fb235c66e42')) {function content_53fb235c66e42($_smarty_tpl) {?>			<?php ob_start(); ?>
-				var baseUrl = "http://dev.mall.com/mall";
 				var header = require('default:widget/header/header.js');
 				$(function(){
 					function search() {
@@ -206,9 +205,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		    <div id="coorper3nva" class="coorper3nva">
 		      <ul>
 		        <li><a id="tag1" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
-/Index" class="movedcurr">首页</a></li>
+/Main/Index" class="movedcurr">首页</a></li>
 		        <li><a id="tag2" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
-/Product">产品服务</a></li>
+/Main/Product">产品服务</a></li>
 		        <li><a id="tag3" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
 /AccountCenter/MyOrder">账户中心</a></li>
 		        <li><a id="tag4" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>

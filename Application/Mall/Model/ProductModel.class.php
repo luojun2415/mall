@@ -87,8 +87,8 @@ class ProductModel {
 		return $result > 0;
 	}
 	
-	function getProudctInfo($enterpriseId, $productId) {
-		$result = getCgiData('GetProductWithListPropertyByIdAndEnterpriseId', array($enterpriseId, $productId));
+	function getProudctInfo($productId, $enterpriseId) {
+		$result = getCgiData('GetProductWithListPropertyByIdAndEnterpriseId', array($productId, $enterpriseId));
 		if ($result->success) {
 			$products = $this->parseProductsInfo(array($result->data));
 			return $products[0];

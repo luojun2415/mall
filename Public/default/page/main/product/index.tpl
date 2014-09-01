@@ -228,15 +228,15 @@
 {script}
 $(function($) {
 	//热销卡
-	$.get('{$baseUrl}/Product/Flex/id/1?r='+Math.random(),{},function(data){
+	$.get('{$baseUrl}/Api/Product/Flex/id/1?r='+Math.random(),{},function(data){
 		$('#hotProducts').html(data);
 	});
 	//常规卡
-	$.get('{$baseUrl}/Product/Flex/id/0?r='+Math.random(),{},function(data){
+	$.get('{$baseUrl}/Api/Product/Flex/id/0?r='+Math.random(),{},function(data){
 		$('#commonProducts').html(data);
 	});
 	//预定卡
-	$.get('{$baseUrl}/Product/Flex/id/2?r='+Math.random(),{},function(data){
+	$.get('{$baseUrl}/Api/Product/Flex/id/2?r='+Math.random(),{},function(data){
 		$('#destineProducts').html(data);
 	});
 });

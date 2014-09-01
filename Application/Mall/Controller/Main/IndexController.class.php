@@ -1,5 +1,5 @@
 <?php
-namespace Mall\Controller;
+namespace Mall\Controller\Main;
 use Mall\Controller\AuthController;
 
 class IndexController extends AuthController {

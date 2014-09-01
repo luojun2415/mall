@@ -71,46 +71,7 @@
     	薪福推荐
     </div> 
     
-    <div class="discount list">
-      <ul>
-      	{if isset($normalProducts) && count($normalProducts)>0}
-      	{foreach from=$normalProducts item=product name=num}
-      	  {if $smarty.foreach.num.index lt 3}
-      	 <li style="width: 33%">
-          <div class="list_cn por_relative">
-          	<u><a href="{$product->ProductUrl}" target="_blank">
-          	{$product->ProductName}</a></u>
-            <div class="list_pic">
-            	<a href="{$product->ProductUrl}" target="_blank">
-            	<img src="{$product->ThumbnailUrl}"/></a>
-            </div>
-            
-            <div class="list_text">
-              	{if isset($product->MinAttributeValue,$product->MaxAttributeValue)} 
-					<p>面值：
-						{if $product->MinAttributeValue == $product->MaxAttributeValue}
-							{$product->MaxAttributeValue|string_format:'%0.2f'}
-						{else}
-							{$product->MinAttributeValue|string_format:'%0.2f'} - {$product->MaxAttributeValue|string_format:'%0.2f'}	
-						{/if}
-					</p>
-              		<p class="orange text_v">积分：￥
-              		{if $product->MinXFPrice == $product->MaxXFPrice}
-							{$product->MaxXFPrice|string_format:'%0.2f'}
-						{else}
-							{$product->MinXFPrice|string_format:'%0.2f'} - {$product->MaxXFPrice|string_format:'%0.2f'}	
-						{/if}
-              		</p>
-              {/if}
-            </div>
-            
-          </div>
-        </li>
-        {/if}
-        {/foreach}
-        {/if}
-        
-      </ul>
+    <div class="discount list" id="xftj">   
     </div>
   </div>
   </div><div class="homeright">
@@ -130,7 +91,7 @@
 {/if}
 <library>
 
-<script>
+{script}
           	
 var lastHeight = 0;
 var iframeWin = false;
@@ -140,24 +101,29 @@ var renkeShow = '{$renkeShow}';
 var isFirstImgShow = '{$isFirstImgShow}';
 var foodgray = '{$foodgray}';
 //显示民生新闻
-$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/MS/2/1',{},function(data){
+$.get('{$baseUrl}/NewsCenter/GetHomeNewsAndNotice/MS/2/1',{},function(data){
 	$("#msInfos").html(data);
 });
 //幸福人生新闻
-$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/XF/2/1',{},function(data){
+$.get('{$baseUrl}/NewsCenter/GetHomeNewsAndNotice/XF/2/1',{},function(data){
 	$("#xfInfos_news").html(data);
 });
 //幸福人生公告
-$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/XF/0/1',{},function(data){
+$.get('{$baseUrl}/NewsCenter/GetHomeNewsAndNotice/XF/0/1',{},function(data){
 	$("#xfInfos_notice").html(data);
 });
 //首页轮播图
-$.post(baseUrl+'/AsynRequest/GetSlideList',{},function(result){
+$.post('{$baseUrl}/AsynRequest/GetSlideList',{},function(result){
 	$("#slide").html(result);
 });
 //幸福人生公告
-$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/XF/0/1',{},function(data){
+$.get('{$baseUrl}/NewsCenter/GetHomeNewsAndNotice/XF/0/1',{},function(data){
 	$("#xfInfos_notice").html(data);
+});
+
+//薪福推荐
+$.get('{$baseUrl}/Api/Product/Flex/id/0?r='+Math.random(),{},function(data){
+	$('#xftj').html(data);
 });
 
 function callback(win){	
@@ -198,62 +164,8 @@ $("#jrenke").click(function(){
 
 });
 
-</script>
-<script>
-/* 民生新闻
-$("#msNews").mouseenter(function() {
-	$("#msNotice").parent().removeClass();
-	$(this).parent().addClass("curr");
-	$("#showminshengnews").show();
-	$("#showminshengpost").hide();
-	var href = baseUrl+'/NewsCenter/Index/MS/2/1';
-	$('#msMore').attr('href',href);
-	$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/MS/2/1',{},function(data){
-		$("#msInfos").html(data);
-	});
-});
-*/
-/* 民生公告
-$("#msNotice").mouseenter(function() {
-	$(this).parent().addClass("curr");
-	$("#msNews").parent().removeClass();
-	$("#showminshengnews").hide();
-	$("#showminshengpost").show();
-	var href = baseUrl+'/NewsCenter/Index/MS/0/1';
-	$('#msMore').attr('href',href);
-	$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/MS/0/1',{},function(data){
-		$("#msInfos").html(data);
-	});
-});
-*/
-/*薪福新闻
-$("#xfNews").mouseenter(function() {
-	$("#xfNotice").parent().removeClass();
-	$(this).parent().addClass("curr_xf");
-	$("#showxfsdnews").show();
-	$("#showxfsdpost").hide();
-	var href = baseUrl+'/NewsCenter/Index/XF/2/1';
-	$('#xfMore').attr('href',href);
-	$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/XF/2/1',{},function(data){
-		$("#xfInfos").html(data);
-	});
-});
-*/
+{/script}
 
-/*薪福公告
-$("#xfNotice").mouseenter(function() {
-	$(this).parent().addClass("curr_xf");
-	$("#xfNews").parent().removeClass();
-	$("#showxfsdpost").show();
-	$("#showxfsdnews").hide();
-	var href = baseUrl+'/NewsCenter/Index/XF/0/1';
-	$('#xfMore').attr('href',href);
-	$.get(baseUrl+'/NewsCenter/GetHomeNewsAndNotice/XF/0/1',{},function(data){
-		$("#xfInfos").html(data);
-	});
-});
-*/
-</script>
 {literal}
 
 <script type="text/javascript">

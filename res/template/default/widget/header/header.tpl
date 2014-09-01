@@ -1,5 +1,4 @@
 			{script}
-				var baseUrl = "http://dev.mall.com/mall";
 				var header = require('default:widget/header/header.js');
 				$(function(){
 					function search() {
@@ -143,8 +142,8 @@
 		  <div id="nva_bar">
 		    <div id="coorper3nva" class="coorper3nva">
 		      <ul>
-		        <li><a id="tag1" href="{$baseUrl}/Index" class="movedcurr">首页</a></li>
-		        <li><a id="tag2" href="{$baseUrl}/Product">产品服务</a></li>
+		        <li><a id="tag1" href="{$baseUrl}/Main/Index" class="movedcurr">首页</a></li>
+		        <li><a id="tag2" href="{$baseUrl}/Main/Product">产品服务</a></li>
 		        <li><a id="tag3" href="{$baseUrl}/AccountCenter/MyOrder">账户中心</a></li>
 		        <li><a id="tag4" href="{$baseUrl}/CustomService">客户服务</a></li>
 		        {if isset($agcodValid) && $agcodValid}

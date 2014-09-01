@@ -89,7 +89,7 @@
 .discount .discount_nva span{ padding:0px;}
 .list{ width:100%;}
 .list ul{ padding:8px 0px; margin-left:-1px; width:100%; text-align:left;}
-.list li{ width:24.9%; background:url(http://dev.mall.com/res/static/default/lib/css/image/shop_line.jpg) no-repeat left; float:left; height:272px;}
+.list li{ background:url(http://dev.mall.com/res/static/default/lib/css/image/shop_line.jpg) no-repeat left; float:left; height:272px;}
 .list li .list_cn { margin:3px 21px; line-height:2em; }
 .list li .list_cn u{ font-size:14px; font-family:"微软雅黑", "黑体", "宋体"; text-decoration:none; color:#666;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;  width:193px; display:inline-block; overflow:hidden}
 .list li .list_cn .list_pic{ margin:0 auto; margin-top:15px;margin-bottom:10px; text-align:center; width:100%; height:180px; overflow:hidden; vertical-align:middle; display:table-cell;}

@@ -1,22 +1,22 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2014-08-26 19:22:56
-         compiled from "res/template\default\page\Main\Login\index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2246953fbde278dcf86-16397400%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.6, created on 2014-08-26 19:22:46
+         compiled from "res/template\default\page\Main\Login\Index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2673953fbf4e46caeb5-09365014%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '2b0e6e834cbc408dfcbece9231bff3d08b4230ab' => 
+    'b6a6e8f46989676a839310e814238ac644219f08' => 
     array (
-      0 => 'res/template\\default\\page\\Main\\Login\\index.tpl',
+      0 => 'res/template\\default\\page\\Main\\Login\\Index.tpl',
       1 => 1409049055,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2246953fbde278dcf86-16397400',
+  'nocache_hash' => '2673953fbf4e46caeb5-09365014',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_53fbde27c10ad',
+  'unifunc' => 'content_53fbf4e49adf8',
   'variables' => 
   array (
     'baseUrl' => 0,
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53fbde27c10ad')) {function content_53fbde27c10ad($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_53fbf4e49adf8')) {function content_53fbf4e49adf8($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php  ?><html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>用户卡登陆 </title>

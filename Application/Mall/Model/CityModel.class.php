@@ -19,4 +19,13 @@ class CityModel {
 		return false;
 		
 	}
+	
+	public function ChooseCities() {
+		$result = getCgiData('GetCitiesInfo');
+		if ($result->success) {
+			return $result->data;
+		}
+		
+		return false;
+	}
 }

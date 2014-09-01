@@ -1,0 +1,1376 @@
+[ 2014-08-27T09:02:46+08:00 ] 127.0.0.1 http://dev.mall.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+
+[ 2014-08-27T09:02:46+08:00 ] 127.0.0.1 http://dev.mall.com/index.php/Mall/Main/Login/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2014-08-27T09:02:46+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Main/Login/GetCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Vcode.class.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2014-08-27T09:03:01+08:00 ] 127.0.0.1 http://dev.mall.com/index.php/Mall/Main/Login/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2014-08-27T09:03:02+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Main/Login/GetCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003244s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Vcode.class.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2014-08-27T09:03:06+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Main/Login/LoginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+INFO: http://172.18.105.62:8030/Controller/Login.ashx?userNo=xf0045
+
+[ 2014-08-27T09:03:07+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Main/Login/LoginCheck
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2014-08-27T09:03:07+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:03:07+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/0/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/MS/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/AsynRequest/GetSlideList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载控制器:AsynRequest/GetSlideList
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.37824524310417473
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.37824524310417473
+INFO: http://172.18.102.199:10010/tag/GetAllTagList
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.37824524310417473
+INFO: http://172.18.102.199:10010/product/GetAllProductInfosByEnterpriseIdAndTagIdEnterprise/1/3/28/4/1/1
+
+[ 2014-08-27T09:03:08+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.37824524310417473
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: tagName C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-08-27T09:03:16+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/City/Choose
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:03:16+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/City/Choose
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:03:16+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/City/Choose
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/MS/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/AsynRequest/GetSlideList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载控制器:AsynRequest/GetSlideList
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.9867028901353478
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.9867028901353478
+INFO: http://172.18.102.199:10010/tag/GetAllTagList
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.9867028901353478
+INFO: http://172.18.102.199:10010/product/GetAllProductInfosByEnterpriseIdAndTagIdEnterprise/1/3/28/4/1/1
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.9867028901353478
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: tagName C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/0/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:03:20+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/0/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:05:18+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: call C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\compiler.widget.php 第 28 行.
+NOTIC: [8] Undefined index: call C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\compiler.widget.php 第 28 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 44 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 144 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 144 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 156 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 156 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.544775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.544958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/MS/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/0/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/AsynRequest/GetSlideList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+ERR: 无法加载控制器:AsynRequest/GetSlideList
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.15475802519358695
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.15475802519358695
+INFO: http://172.18.102.199:10010/tag/GetAllTagList
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.15475802519358695
+INFO: http://172.18.102.199:10010/product/GetAllProductInfosByEnterpriseIdAndTagIdEnterprise/1/3/28/4/1/1
+
+[ 2014-08-27T09:05:19+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.15475802519358695
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: call C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\compiler.widget.php 第 28 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: tagName C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2014-08-27T09:06:00+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:06:00+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 44 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 44 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 144 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 144 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 156 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 156 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-08-27T09:06:15+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/MS/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:06:15+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/0/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:06:15+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:06:15+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/AsynRequest/GetSlideList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载控制器:AsynRequest/GetSlideList
+
+[ 2014-08-27T09:06:15+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.16026252508163452
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:06:16+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.16026252508163452
+INFO: http://172.18.102.199:10010/tag/GetAllTagList
+
+[ 2014-08-27T09:06:16+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.16026252508163452
+INFO: http://172.18.102.199:10010/product/GetAllProductInfosByEnterpriseIdAndTagIdEnterprise/1/3/28/4/1/1
+
+[ 2014-08-27T09:06:16+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.16026252508163452
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: tagName C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-08-27T09:15:30+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:15:30+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: call C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\compiler.widget.php 第 28 行.
+NOTIC: [8] Undefined index: call C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\compiler.widget.php 第 28 行.
+NOTIC: [8] Undefined index: call C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\compiler.widget.php 第 28 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2014-08-27T09:15:42+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/AsynRequest/GetSlideList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+ERR: 无法加载控制器:AsynRequest/GetSlideList
+
+[ 2014-08-27T09:15:42+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/0/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:15:42+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/MS/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000510s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:15:42+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/NewsCenter/GetHomeNewsAndNotice/XF/2/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002766s ]
+ERR: 无法加载控制器:NewsCenter/GetHomeNewsAndNotice
+
+[ 2014-08-27T09:15:42+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.6996583808213472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:15:42+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.6996583808213472
+INFO: http://172.18.102.199:10010/tag/GetAllTagList
+
+[ 2014-08-27T09:15:42+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.6996583808213472
+INFO: http://172.18.102.199:10010/product/GetAllProductInfosByEnterpriseIdAndTagIdEnterprise/1/3/28/4/1/1
+
+[ 2014-08-27T09:15:43+08:00 ] 127.0.0.1 http://dev.mall.com/Mall/Api/Product/Flex/id/0?r=0.6996583808213472
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: tagName C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\83b1ec4e4cf1a88c77bebc25f57449c393a73f6e.file.plist.tpl.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2014-08-27T09:16:33+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:16:33+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2014-08-27T09:16:38+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:16:38+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2014-08-27T09:16:47+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:16:47+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-08-27T09:16:55+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:16:55+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-08-27T09:18:06+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:18:06+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2014-08-27T09:18:46+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:18:46+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2014-08-27T09:20:04+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:20:04+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2014-08-27T09:33:26+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+INFO: http://172.18.102.199:10010/area/GetAreaInfoList
+
+[ 2014-08-27T09:33:26+08:00 ] 127.0.0.1 http://dev.mall.com/Mall
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: description C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 45 行.
+NOTIC: [8] Undefined index: domain C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 330 行.
+NOTIC: [8] Undefined variable: domains C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Common\Lib\Smarty\plugins\FISResource.class.php 第 340 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 87 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 88 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 120 行.
+NOTIC: [8] Undefined index: enterpriseId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 121 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 159 行.
+NOTIC: [8] Undefined index: giftCardsId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: key C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 166 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 198 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 199 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 224 行.
+NOTIC: [8] Undefined index: paycarCount C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 225 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\15035122434987bf3a82f4a427ae6cfbe36099c3.file.header.tpl.php 第 227 行.
+NOTIC: [8] Undefined index: enterpriseInfo C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 90 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 146 行.
+NOTIC: [8] Undefined index: host C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 158 行.
+NOTIC: [8] Undefined index: pic_server C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 160 行.
+NOTIC: [8] Undefined index: pic_subpath C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 161 行.
+NOTIC: [8] Undefined index: renkeShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 163 行.
+NOTIC: [8] Undefined index: isFirstImgShow C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 165 行.
+NOTIC: [8] Undefined index: foodgray C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\96d0536d37a8dc40fff06d056de9e9c9a0903547.file.index.tpl.php 第 167 行.
+NOTIC: [8] Undefined index: tagId C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object C:\Users\John\Downloads\thinkphp_3.2.2_full\Application\Runtime\Cache\bc3ca0c3be70c89c5e2bda9cedc3fefec66295c4.file.footer.tpl.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+

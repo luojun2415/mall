@@ -12,7 +12,7 @@ namespace Lib;
  */
 class XFMemcache {
 	private static $mem;
-	function connect($systemEnvironment = '', $memcacheServers = '') {
+	static function connect($systemEnvironment = '', $memcacheServers = '') {
 		
 		if ($memcacheServers == '') {
 			$memcacheServers = C ( 'memcache' );
@@ -41,7 +41,7 @@ class XFMemcache {
 		}
 	}
 	
-	function getMemValue($key) {
+	static function getMemValue($key) {
 		if (self::$mem == null) {
 			self::connect ();
 		}

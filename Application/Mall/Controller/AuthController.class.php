@@ -13,7 +13,7 @@ abstract class AuthController extends ThemeController {
 	function __construct() {
 		parent::__construct ();
 		if (! $this->isLogin ()) {
-			$this->redirect ( '/Mall/Login/Index' );
+			$this->redirect ( '/Mall/Main/Login/Index' );
 		} else {
 			$theme = $this->getTheme($this->user->enterpriseId);
 			if ($theme) {

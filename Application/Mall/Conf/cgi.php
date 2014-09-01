@@ -7,4 +7,5 @@ return array(
 		'GetAllProductInfosByEnterpriseIdAndTagIdEnterprise'=>'http://172.18.102.199:10010/product/GetAllProductInfosByEnterpriseIdAndTagIdEnterprise/%s/%s/%s/%s/%s/%s',
 		'GetAllTagList' => 'http://172.18.102.199:10010/tag/GetAllTagList',
 		'GetProductWithListPropertyByIdAndEnterpriseId'=>'http://172.18.102.199:10010/product/GetProductWithListPropertyByIdAndEnterpriseId/%s/%s',
+		'GetSkuById'=>'http://172.18.102.199:10010/product/GetSkuById/%s/%s', //经由id获取sku
 );
