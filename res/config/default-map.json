@@ -150,7 +150,7 @@
             "type": "js",
             "deps": [
                 "common:widget/http/http.js",
-                "common"
+                "jquery"
             ]
         },
         "default:widget/header/header.tpl": {

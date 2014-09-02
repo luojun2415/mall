@@ -12,12 +12,14 @@
 		<title>{$title}</title>
 		{require name="common:static/html5.js"}
 		{require name="default:static/lib/css/index.css"}
-		{require name="default:static/lib/css/user/person.css"}
 		{require name="common:static/jquery-1.8.1.min.js"}
+		{require name="default:static/lib/css/user/person.css"}
 		{widget name="common:widget/http/http.tpl" data=$baseUrl}
+		{require name="default:static/lib/js/common.js" sync=true}
 		{block name="block_head_static"}{/block}
 	{/head}
 	{body}
+
 		{widget name="default:widget/header/header.tpl"}
 		{block name="content"}{/block}
 		{widget name="default:widget/footer/footer.tpl"}

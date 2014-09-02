@@ -94,12 +94,10 @@ function addThisUrlToNav(thisDIV,skipUrl){
 </div>
 <!--百度流量统计代码--> 
         
- 	{script}
-		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5697e470981908cea5d27d1fb7c7ee0e' type='text/javascript'%3E%3C/script%3E"));
-	{/script} 
-</body>
-</html>
+{script}
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5697e470981908cea5d27d1fb7c7ee0e' type='text/javascript'%3E%3C/script%3E"));
+{/script}
 {else}
 	{include file="{$style}/footer.tpl"}
 {/if}

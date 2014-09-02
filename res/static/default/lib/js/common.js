@@ -1,4 +1,3 @@
-define('common', function(require, exports, module){
 /**
   * 公用js,可复用js写这里
   * 使用说明：需要与jquery.js一起使用
@@ -971,8 +970,7 @@ define('common', function(require, exports, module){
     }
     
 	/*------------------------------------数据校验---------------------------------------------------------*/
-}
-    
+
     
     
     

@@ -1,5 +1,5 @@
 			{script}
-				var header = require('default:widget/header/header.js');
+				require('default:widget/header/header.js');				
 				$(function(){
 					function search() {
 		                var value = $.trim($("#search_text").val());

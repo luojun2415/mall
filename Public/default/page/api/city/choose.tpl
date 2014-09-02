@@ -1,4 +1,4 @@
-<div class="mt pop_city"><strong>选择您所在的换卡城市：</strong><span>您在  [ <b id="defCity">{$areaName}</b> ]</span><i id="closeButton" onclick="closeChangeSub()"></i> 
+<div class="mt pop_city"><strong>选择您所在的换卡城市：</strong><span>您在  [ <b id="defCity">{$areaName}</b> ]</span><i id="closeButton"></i> 
           </div>
           <div class="city_list">
 <ul>

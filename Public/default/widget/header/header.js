@@ -1,7 +1,7 @@
 var http = require('common:widget/http/http.js');
-var common = require('common');
+var $ = require('jquery');
       //加载城市信息
-		$('.ctqh').live('click',function(){
+		$('.ctqh').on('click',function(){
 			http.get('Api/City/Choose' ,{},function(data){
 				$('#sitecont').html(data);
 				$('body').delegate('.hotcity a','click',function(){
@@ -13,7 +13,7 @@ var common = require('common');
 			});
 			
 		});
-		$('#closeButton').live('click',function(){
+		$(document).delegate('#closeButton', 'click',function(){
 			$('#sitecont').css("display","none");
 		});
 		$('.filter_bar a').click(function(){

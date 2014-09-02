@@ -8,6 +8,14 @@
             "uri": "http://dev.mall.com/res/static/common/jquery-1.8.1.min.js",
             "type": "js"
         },
+        "common:static/jquery/jquery/1.10.1/jquery-debug.js": {
+            "uri": "http://dev.mall.com/res/static/common/jquery/jquery/1.10.1/jquery-debug.js",
+            "type": "js"
+        },
+        "common:static/jquery/jquery/1.10.1/jquery.js": {
+            "uri": "http://dev.mall.com/res/static/common/jquery/jquery/1.10.1/jquery.js",
+            "type": "js"
+        },
         "common:static/lib/js/tools/My97DatePicker/WdatePicker.js": {
             "uri": "http://dev.mall.com/res/static/common/lib/js/tools/My97DatePicker/WdatePicker.js",
             "type": "js"
@@ -68,9 +76,16 @@
             "uri": "http://dev.mall.com/res/static/common/mod.js",
             "type": "js"
         },
+        "common:static/sea-debug.js": {
+            "uri": "http://dev.mall.com/res/static/common/sea-debug.js",
+            "type": "js"
+        },
         "common:widget/http/http.js": {
             "uri": "http://dev.mall.com/res/static/common/widget/http/http.js",
-            "type": "js"
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
         },
         "common:widget/http/http.tpl": {
             "uri": "common/widget/http/http.tpl",

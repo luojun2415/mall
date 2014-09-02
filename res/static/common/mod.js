@@ -14,7 +14,8 @@ var require, define;
         scriptsMap = {},
         resMap, pkgMap;
 
-
+    var isArray = Array.isArray || isType("Array");
+    
     function loadScript(id, callback) {
         var res = resMap[id] || {};
         var url = res.pkg
@@ -35,8 +36,29 @@ var require, define;
         head.appendChild(script);
     }
 
-    define = function(id, factory) {
-        factoryMap[id] = factory;
+    define = function(id, deps, factory) {
+    	var argsLen = arguments.length
+		
+    	// define(factory)
+    	if (argsLen === 1) {
+		    factory = id
+		    id = undefined
+    	}
+    	else if (argsLen === 2) {
+    		factory = deps
+			
+			// define(deps, factory)
+			if (isArray(id)) {
+				deps = id
+				id = undefined
+			}
+			// define(id, factory)
+			else {
+				deps = undefined
+			}
+    	}
+    	
+		factoryMap[id] = factory;
 
         var queue = loadingMap[id];
         if (queue) {

@@ -4,6 +4,7 @@ define('common:widget/http/http.js', function(require, exports, module){
  * 调用之前，需要使用widget初始化
  */
 var _baseUrl;
+var $ = require('jquery');
 exports.init = function(baseUrl) {
 	_baseUrl = baseUrl;
 }
