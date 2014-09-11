@@ -15,6 +15,14 @@ exports.post = function(url, data, fn, type) {
 	return $.post(getUrl(url), data, fn, type);
 }
 
+exports.ajax = function(options) {
+	options = options || {};
+	
+	options.url = getUrl(options.url);
+	
+	return $.ajax(options);
+}
+
 getUrl = function(url) {
 	return _baseUrl + '/' + url;
 }

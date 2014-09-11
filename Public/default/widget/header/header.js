@@ -25,7 +25,7 @@ var $ = require('jquery');
 		});
 		
 		function changeCity(areaId,areaName){
-			//setCookie('AreaID',areaId,'h6');
+			setCookie('AreaID',areaId,'h6');
 			
 			$("#areaName").html(areaName);
 			$("#defCity").html(areaName);

@@ -15,7 +15,7 @@
 		{require name="common:static/jquery-1.8.1.min.js"}
 		{require name="default:static/lib/css/user/person.css"}
 		{widget name="common:widget/http/http.tpl" data=$baseUrl}
-		{require name="default:static/lib/js/common.js" sync=true}
+		{require name="default:static/lib/js/common.js"}
 		{block name="block_head_static"}{/block}
 	{/head}
 	{body}

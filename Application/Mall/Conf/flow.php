@@ -40,7 +40,7 @@ return array(
 					'ProductName' => array(),
 					'MerchantId' => array(),
 				),
-				'Url' => array('Controller' => 'Main/Product', 'Action' => 'Detail')
+				'Url' => array('Controller' => 'Product', 'Action' => 'Detail')
 			)
 		),
 );
